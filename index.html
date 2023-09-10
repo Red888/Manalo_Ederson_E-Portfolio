@@ -26,15 +26,27 @@
       padding: 5px;
       border-radius: 4px;
     }
-    .nav-link:hover{
+    .nav-item:hover{
       background-color: rgb(248, 149, 0);
-      font: black;
+      color: rgb(255, 254, 254);
       border-radius: 3px;
     }
     
     #contact_list, #contact_head{
       border-bottom: 1px solid white;
     }
+
+    /*MOVE ANIMATION EFFECTS*/
+
+img {
+    transition: transform 250ms;
+  }
+  
+  img:hover {
+    transform: translateY(-20px);
+  }
+
+
     </style>
             
   </head>
@@ -73,13 +85,13 @@
                 <a class="nav-link active" aria-current="page" href="#about">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link active" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#seminar">Seminars</a>
+                <a class="nav-link active" href="#seminar">Seminars</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#contact">Contacts</a>
+                <a class="nav-link active" href="#contact">Contacts</a>
               </li>
               <!--<form class="d-flex">
               <input class="form-control me-2 text-dark" type="search" placeholder="Search" aria-label="Search">
@@ -144,7 +156,7 @@
 
                         <div class="ms-2">
                           <div class="card mt-2 border-3 border-dark" style="width: 20rem;">          <!--card-->
-                            <p class="text-center fs-5 bg-warning p-2 rounded-3 mt-3">CapCulator</p>
+                            <p class="text-center fs-5 bg-warning p-2 rounded-3 mt-3">CaptCulator</p>
                             <img src="./captculator.png" class="card-img-top border border-rounded" alt="captculator">
                             
                             <div class="card-body text-center bg-secondary bg-gradient border border-rounded">
@@ -207,7 +219,7 @@
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                 <div class="accordion-body bg-dark text-light">
                   <h6>Computer Engineering Student that is interested in designing, modeling, and creating various projects using CAD Software, IDE, and Code Editor.<br><br>
-                    <i>Programming is one of the skill that I learned from my school including C++, Arduino Programming, C#, and Web Development (HTML & CSS).<br><br>
+                    <i>Programming is one of the skill that I learned from my school including C++, Arduino Programming, C#, and Web Development (HTML, CSS & JS).<br><br>
                       Photo Editing is my passion.</i></h6>
                 </div>
               </div>
