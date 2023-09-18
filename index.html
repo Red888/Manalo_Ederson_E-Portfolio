@@ -54,12 +54,12 @@ img {
             
   </head>
 
-<body>
+<body class="bg-info">
  
 <!-- navbar -->
 <nav class="navbar navbar-expand-md bg-dark sticky-top d-sm-flex pe-3" id="navbar1">
 
-    <img src="./88.png" class="float-end rounded mx-auto d-block ms-5" alt="logo" width="150" height="100">
+    <img src="./88.png" class="float-end rounded mx-auto d-block ms-5" alt="logo" width="130" height="90">
         
         <span class="fw-bold text-dark me-1" id="myname">
           <i class="bi bi-person-circle"></i>&nbsp;Manalo, Ederson
@@ -106,26 +106,28 @@ img {
       </nav>
 </nav>
 
-<section  id="intro" class="bg-dark bg-gradient ">  
+<section  id="intro" class="bg-dark bg-gradient pb-3 m-3 rounded">  
     <div class="d-lg-flex mx-3">                                    <!--flexbox component-->
           
           <div class="container-lg bg-dark rounded-3 ps-5 pe-5">
               <div class="row justify-content-center align-items-center">
                 <div class="text-center text-md-start"></br>
-                  <div class="col-md-14 text-center d-md-block">
+                  <div class="text-center d-lg-flex">
+                    <div class="d-flex">
+                      <img src="./ManaloEderson2x2.jpg" class="border border-3 border-warning float-start mx-auto d-block" alt="picture" style="border-radius: 50%;" width="150" height="150">
+                    </div>
                     
-                    <img src="./red.jpg" class="rounded float-start rounded mx-auto d-block border border-3 border-warning me-3 mb-3" alt="picture" id="mypic" width="150" height="150">
                     
-                    <div class="display-6 fst-italic fw-bold mt-5 ms-5 text-light">Hi, I'm Ederson, a CpE graduate from Tanauan City College.</div></br>
-                    <h2 class="text-warning">Keep on <span class="auto-type"></span></h2>
+                    <div class="display-6 fst-italic fw-bold mt-3 px-2 pt-4 text-light">Hi, I'm Ederson, aspiring Software Developer!</div></br>
+                    
                 </div>
-                
+                <h2 class="text-warning text-center">Keep on <span class="auto-type"></span></h2>
                   <h1>
                     
                     <hr class="bg-light">
-                    <p class="lead ms-5 text-warning fw-normal fs-4"><i>I'm looking for a part-time or full-time job where I can use my expertise for the contribution to the company. To help innovate the company and improve my skills through working experience and a challenging environment.</i></p>
+                    <p class="lead px-2 text-warning fw-normal fs-4"><i>I'm looking for a part-time or full-time job where I can use my expertise for the contribution to the company. To help innovate the company and improve my skills through working experience and a challenging environment.</i></p>
                   </h1>
-                  <p class="lead my-4 text-light ms-5"><i>I'm ready to adapt the newest technological trends as I gain knowledge through my experiences. I'm willing to undergo in trainings and seminars to develop my skills and apply it to the engineering and information technology industries.</i></p>
+                  <p class="lead px-2 py-4 text-light"><i>I'm ready to adapt the newest technological trends as I gain knowledge through my experiences. I'm willing to undergo in trainings and seminars to develop my skills and apply it to the engineering and information technology industries.</i></p>
                   
                   <div class="mb-3">
                   
@@ -217,8 +219,10 @@ img {
 </section>
 
       <!-- ABOUT -->
-      <section id="about" class="bg-dark pt-4 pb-4">
+<section id="about" class="bg-dark pt-5 pb-4 m-3 rounded">
+        
         <div class="container-lg">
+          <h1 class="text-dark text-left bg-warning p-2 fw-light rounded">About me</h1>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h2 class="accordion-header" id="headingOne">
@@ -272,11 +276,17 @@ img {
       </section>
 
     <!-- PROJECTS -->
-<section id="projects" class="bg-dark bg-gradient pt-4 pb-4">
-  
+<section id="projects" class="bg-dark bg-gradient pt-5 pb-4 m-3 rounded">
+  <div class="container-lg">
+    <h1 class="text-dark text-end bg-info p-2 fw-light rounded">Projects</h1>
+  </div>
   <div class="container-lg text-center border border-2 border-light rounded bg-dark"></br>
       <h4 class="text-light">THESIS | TRI-D: TRICYCLE BOOKING AND DISPATCHING SYSTEM OF BARANGAY'S TODA OF TANAUAN CITY</h4></br>
   </div>
+
+  <div class="container-lg text-center border border-2 border-light rounded bg-dark"></br>
+    <h5 class="text-light fw-light">This system can count the total number of passengers and drivers inside the barangay using Mobile applications created in MIT App Inventor software. The mobile app is connected to a real-time web server using Firebase API and a real-time database. The prototype has the functionality same as the developed mobile applications, it is developed using Arduino IDE and it is also connected to the Firebase web server.</h5></br>
+</div>
 
   <div class="container bg-dark bg-gradient ps-4 pe-4 pt-4 pb-4 border-start border-end border-bottom border-3 border-warning">
     <div class="d-lg-flex d-sm-inline-flex align-items-center pt-4">
@@ -317,6 +327,9 @@ img {
       <h4 class="text-light">MOBILE APPLICATIONS | MOBILE APPLICATIONS USING MIT APP INVENTOR</h4></br>
   </div>
 
+  <div class="container-lg text-center border border-2 border-light rounded bg-dark"></br>
+    <h5 class="text-light fw-light">The mobile applications is made using MIT app inventor with the drag and drop widgets, components, and layout for easier mobile development.</h5></br>
+</div>
     <div class="d-lg-flex d-sm-inline-flex align-items-center pt-4">
       <div class="col">
         <img class="img-fluid rounded" src="./PA.jpg" alt="logo" width="500" height="100">
@@ -361,7 +374,10 @@ img {
 <!--TITLE-->         
 <div class="container-lg text-center border border-2 border-light rounded bg-dark"></br>
   <h4 class="text-light">PHOTO EDITING WITH ADOBE PHOTOSHOP 2020 | LOGO DESIGN AND POSTER MAKING</h4></br>
-  
+</div>
+
+<div class="container-lg text-center border border-2 border-light rounded bg-dark"></br>
+  <h5 class="text-light fw-light">During my student days, my hobby was to create crazy photo-edited images for my happiness until I found that this hobby became a passion. I decided to learn more graphic designing until it became an opportunity that you earn money by getting a commission.</h5></br>
 </div>
     <div class="d-lg-flex d-sm-inline-flex align-items-center pt-4">
             <div class="col p-3">
@@ -542,7 +558,12 @@ img {
 </section>
 
  <!-- SEMINAR ATTENDED -->
-<section id="seminar" class="bg-dark pt-4 pb-4">
+<section id="seminar" class="bg-dark pt-5 pb-4 m-3 rounded">
+
+  <div class="container-lg">
+    <h1 class="text-dark text-start bg-info p-2 fw-light rounded">Seminar attended</h1>
+  </div>
+
   <div class="container-lg d-lg-flex">
     <div class="container-sm">
       <div class="row align-items-center p-2 border border-4 border-warning rounded mb-3">
