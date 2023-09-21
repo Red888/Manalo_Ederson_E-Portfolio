@@ -78,7 +78,7 @@ img {
       <nav class="navbar navbar-expand-lg navbar-light bg-warning rounded-3 ms-1 me-1">
         <div class="container-fluid fw-bold">
           <a class="navbar-brand" href="#intro" id="portfolio">E-Portfolio</a>
-          <a href="https://mail.google.com/mail/u/0/#inbox" class="btn btn-info border border-light border-3 fw-bold me-3" target="_blank">Message me</a>
+          <a href="https://red888.github.io/Bootsrap-Form-with-Firebase-/" class="btn btn-info border border-light border-3 fw-bold me-3" target="_blank">Message me</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -625,17 +625,45 @@ var typed = new Typed(".auto-type", {
 
 <footer>
   <!--CONTACT--> 
-<section id="contact" class="bg-dark pt-4 pb-4">
+<section id="contact" class="bg-dark pt-4 pb-2>
   <hr class="bg-light">
-  <div class="container-lg">
-  <ul class="list-group" id="contact_list">
-    <li class="list-group-item fs-5 text-light text-end bg-secondary" id="contact_head"><i class="bi bi-person-lines-fill"></i>&nbsp;&nbsp;Contact Me</li>
-    <li class="list-group-item bg-dark text-light"><i class="bi bi-envelope"></i><b>&nbsp;&nbsp;Email:&nbsp;&nbsp;</b><a target="_blank" href="https://mail.google.com/">manaloederson@gmail.com</a></li>
-    <li class="list-group-item bg-dark text-light"><i class="bi bi-phone-fill"></i><b>&nbsp;&nbsp;Mobile Number:&nbsp;&nbsp;</b>09159329550</li>
-    <li class="list-group-item bg-dark text-light"><a target="_blank" href="https://github.com/Red888"><i class="bi bi-github"></i></a><b>&nbsp;|&nbsp;Github&nbsp;&nbsp;</b></li>
-    <li class="list-group-item bg-dark text-light"><a target="_blank" href="https://www.linkedin.com/in/ederson-manalo-b69396277/"><i class="bi bi-linkedin"></i></a><b>&nbsp;|&nbsp;Linkin&nbsp;&nbsp;</b></li>
+ 
+  <div class="container-lg d-lg-flex pb-1">
+    <div class="container-sm">
+      <li class="list-group-item fs-5 text-dark text-end bg-info mb-3" id="contact_head"><i class="bi bi-person-lines-fill"></i>&nbsp;&nbsp;Contact Me</li>
+      <div class="col align-items-center p-2 border border-4 border-warning rounded mb-3 d-lg-inline-flex">
+        <div class="col px-1">
+          <ul class="list-group" id="contact_list">
+            <li class="list-group-item bg-dark text-light"><i class="bi bi-envelope"></i><b>&nbsp;&nbsp;|&nbsp;&nbsp;</b><a target="_blank" href="https://mail.google.com/">manaloederson@gmail.com</a></li>
+            <li class="list-group-item bg-dark text-light"><i class="bi bi-phone-fill"></i><b>&nbsp;&nbsp;Mobile Number:&nbsp;&nbsp;</b>09159329550</li>
+            <li class="list-group-item bg-dark text-light"><a target="_blank" href="https://github.com/Red888"><i class="bi bi-github"></i></a><b>&nbsp;|&nbsp;Github&nbsp;&nbsp;</b></li>
+            <li class="list-group-item bg-dark text-light"><a target="_blank" href="https://www.linkedin.com/in/ederson-manalo-b69396277/"><i class="bi bi-linkedin"></i></a><b>&nbsp;|&nbsp;Linkin&nbsp;&nbsp;</b></li>
+          </ul>
+        </div>
+        <div class="col px-1">
+          <form class="p-2 rounded text-light fs-6" style="width: 100%;">
+          
+            <div class="alert alert-success fw-bold fs-6" role="alert" style="display: none;">
+              Your message has been sent! Thank you for your feedback!
+            </div>
       
-  </ul>
+            <label for="exampleInputEmail1" class="form-label fs-4 fst-italic fs-6">Share your feedback!</label>
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="msgContent" style="height: 100px"></textarea required>
+              <label for="floatingTextarea2" class="text-dark">Message here...</label>
+            </div>
+              
+            <div>
+                <button type="submit" class="btn btn-info bg-gradient mt-3 border border-dark fw-bold" style="width: 100%;">Submit</button>
+            </div>
+            <div class="pt-3">
+              <p>©2023 Rednose. All rights reserved.</p>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
   </div>
   </section>
 </footer>
