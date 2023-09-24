@@ -70,9 +70,9 @@ overflow-y: scroll;
 
 
 .container-1 p{
-    color: rgb(255, 255, 255);
+    color: rgb(253, 228, 1);
     line-height: 2;
-    font-size: 20px;
+    font-size: 22px;
     box-shadow: 0 20px 40px rgb(31, 30, 30);
     border-radius: 10px;
     padding: 10px;
@@ -83,6 +83,12 @@ overflow-y: scroll;
     color: rgb(252, 252, 252);
     margin: 10px 0 20px 0;
     text-transform: capitalize;
+}
+
+.container-1 h5{
+    color: rgb(252, 252, 252);
+    margin: 10px 0 20px 0;
+    font-weight: lighter;
 }
 
 .container-1 button{
