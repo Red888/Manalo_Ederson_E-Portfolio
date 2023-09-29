@@ -3,10 +3,10 @@
     height: 100%;
     position: fixed;
     background: black url("OFFICIAL\ PRELOADER.gif") no-repeat center;
-    background-size: 20%;
+    background-size: 30%;
     z-index: 100;
 }
-
+ 
 
 #navbar1{
     border-bottom: 2px solid rgb(245, 180, 2);
