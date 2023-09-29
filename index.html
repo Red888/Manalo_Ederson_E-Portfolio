@@ -16,6 +16,9 @@
 
 <body class="bg-info">
  
+  <div id="loader"></div>
+
+
 <!-- navbar -->
 <nav class="navbar navbar-expand-md bg-dark sticky-top d-sm-flex pe-3" id="navbar1">
 
@@ -635,6 +638,24 @@ var typed = new Typed(".auto-type", {
   backSpeed: 150,
   loop: true
 })
+
+
+//PRE LOADER
+
+function closepreloader(){
+    document.getElementById("loader").style.display = 'none';
+}
+
+
+window.addEventListener("load",function(){
+    setTimeout(closepreloader, 3500);
+    
+});
+
+
+
+
+
 </script>
 
 </body>
@@ -662,7 +683,7 @@ var typed = new Typed(".auto-type", {
             <div class="container-1">
               <h5 class="text-light"><i>No motivation? Here is the Quote of the Day</i></h5>
                 <p id="quoted">
-                    "Every end is a new beginning."
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <h3 id="author"></h3>
                 <button id="btnquote" onclick="GenerateQuote()">Get quote</button>
