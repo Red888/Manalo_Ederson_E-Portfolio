@@ -132,14 +132,14 @@ overflow-y: scroll;
 /* transition effects */
 
 .box{
-    transform: translate(100%);
+    transform: translateY(50%);
     transition: transform 0.4s ease;
 }
 
 .box:nth-of-type(even){
-    transform: translateX(-400%);
+    transform: translateY(-50%);
 }
 
 .showup{
-    transform: translateX(0);
+    transform: translateY(0);
 }
