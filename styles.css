@@ -143,3 +143,14 @@ overflow-y: scroll;
 .showup{
     transform: translateY(0);
 }
+
+.hideElements{
+    opacity: 0;
+    transform: translate(-100%);
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    transform: translateX(0);
+}
