@@ -155,6 +155,9 @@ overflow-y: scroll;
     transform: translateX(0);
 }
 
+#arrow-up{
+    z-index: 5;
+}
 /*
 .barColor .animate{
     position: absolute;
