@@ -65,5 +65,69 @@ window.onscroll = () => {
     })
 }
 */
+// Cookies
+
+
+
+
+
+function setCookie(cname, cvalue, exdays) {
+    const d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    let expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+  }
+  
+  function getCookie(cname) {
+    let name = cname + "=";
+    let decodedCookie = decodeURIComponent(document.cookie);
+    let ca = decodedCookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+      }
+      if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+      }
+    }
+    return "";
+  }
   
   
+  function checkCookie() {
+    let user = getCookie("username");
+    if (user != "") {
+      alert("Welcome again " + user);
+      document.querySelector("#cookies").style.display = "none";
+    } else {
+       user = prompt("Please enter your name:","");
+       if (user != "" && user != null) {
+         setCookie("username", user, 7);
+       }
+    }
+  }  
+  
+  setTimeout(function checkCookieHistory() {
+    let user = getCookie("username");
+    if (user != "") {
+      alert("Welcome again " + user);
+      document.querySelector("#cookies").style.display = "none";
+    } 
+  },5000);
+
+  function acceptCookie()
+{
+    document.querySelector("#cookies").style.display = "none";
+    
+    checkCookie();
+    setCookie(cname, true, 7);
+}
+
+function removeConsent()
+{
+    document.querySelector("#cookies").style.display = "none";
+}
+
+
+

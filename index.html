@@ -13,10 +13,33 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
   </head>
   
-  
-<body class="bg-info bg-gradient">
+<body class="bg-info bg-gradient" onload="checkCookieHistory()">
 
   <div id="loader"></div>
+
+  <!-- <div class="pop-up-container">
+    <div class="pop-up-content">
+      <div class="form-border">
+        <form action="">
+          <input type="text" name="" id="getName" placeholder="Enter your name" value="user">
+          <button>Ok</button>
+        </form>
+      </div>
+    </div>
+  </div> -->
+
+  <div class="" id="cookies">
+    <div class="container-cookies">
+      <div class="sub-container">
+        <div class="cookies">
+          <p>This website uses cookies to ensure you get the better experience on my E-Portfolio website.</p>
+          <button id="cookies-btn" onclick="acceptCookie()">Accept</button>
+          <button id="cookies-decline" onclick="removeConsent()">Decline</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
   <div class="fixed-bottom text-end me-4 mb-5" id="arrow-up"><a href="#intro"><i class="bi bi-arrow-up-circle-fill fs-1 text-light bg-dark rounded-pill p-1"></i></a></div>
 
@@ -666,7 +689,7 @@
   <section id="contact" class="bg-dark pt-4 pb-1>
     <div class="container d-lg-flex pb-2 mx-5">
       <li class="list-group-item fs-5 text-dark text-end bg-info mx-3 mb-3 rounded-3" id="contact_head"><i class="bi bi-person-lines-fill"></i>&nbsp;&nbsp;Contact Me</li>
-      <div class="container-sm d-lg-flex pb-2 justify-content-center">
+      <div class="container-sm d-lg-flex pb-5 justify-content-center">
         
         <div class="col align-items-center p-2 mb-3 d-lg-inline-flex ">
           
@@ -797,7 +820,6 @@ function closepreloader(){
 
 window.addEventListener("load",function(){
     setTimeout(closepreloader, 3000);
-    
 });
 
 </script>
