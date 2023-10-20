@@ -108,13 +108,19 @@ function setCookie(cname, cvalue, exdays) {
     }
   }  
   
-  setTimeout(function checkCookieHistory() {
+  function checkingCookie()
+  {
+    setTimeout(checkCookieHistory,5000);
+  }
+ 
+
+  function checkCookieHistory() {
     let user = getCookie("username");
     if (user != "") {
       alert("Welcome again " + user);
       document.querySelector("#cookies").style.display = "none";
     } 
-  },5000);
+  }
 
   function acceptCookie()
 {
