@@ -15,7 +15,7 @@
   
 <body class="bg-info bg-gradient" onload="checkingCookie()">
 
-  <div id="loader"></div>
+  <!-- <div id="loader"></div> -->
 
   <!-- <div class="pop-up-container">
     <div class="pop-up-content">
@@ -140,11 +140,24 @@
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                   <div class="modal-dialog modal-dialog-scrollable">
                     <div class="modal-content bg-primary bg-gradient">
-                      <div class="modal-header">
-                        <h5 class="modal-title text-light" id="exampleModalLabel">Other projects</h5>
+                      <div class="modal-header bg-light">
+                        <h5 class="modal-title text-dark id="exampleModalLabel">Other projects</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                       </div>
                       <div class="modal-body">
+
+                        <div class="ms-2">
+                          <div class="card mt-2 mb-5 border-2 border-light" style="width: 100%;">          <!--card-->
+                            <p class="text-center fs-5 bg-warning p-2 rounded-3 mt-3">Quiz App API</p>
+                            <img src="./assets/quiz1.JPG" class="card-img-top border border-rounded" alt="Quiz App">
+                            <img src="./assets/quiz2.JPG" class="card-img-top border border-rounded mt-4" alt="Quiz App">
+                            <div class="card-body text-center bg-info bg-gradient border border-rounded">
+                              <p class="card-text text-dark">This web app can generate random question using Fetch API from Open Trivia DB.</p>
+                              <a href="https://red888.github.io/Quiz_App_API/" class="btn btn-warning mt-2 border border-dark" target="_blank">View Project</a>
+                            </div>
+                          </div>
+                        </div>
+
                         <div class="ms-2">
                           <div class="card mt-2 mb-5 border-2 border-light" style="width: 100%;">          <!--card-->
                             <p class="text-center fs-5 bg-warning p-2 rounded-3 mt-3">One Piece Devil Fruits</p>
@@ -182,7 +195,7 @@
                         </div>
                         
                       </div>
-                      <div class="modal-footer">
+                      <div class="modal-footer bg-light">
                         <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
                       </div>
                     </div>
