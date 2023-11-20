@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDERSON MANALO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+   <!--
+  <h1 class="display-4">this is h1 but h6 class</h1>
+  <p class="display-6">hello Lorem ipsum dolor sit.</p>
+  <p class="lead text-center">hello</p>
+  <p class="text-light bg-secondary">HELLO WORLD</p>
+  <a href="#" class="btn btn-success" id="button">this is button</a>
+
+  <button class="btn btn-sm btn-danger">Primary Button</button>
+  <button class="btn btn-lg btn-outline-secondary">hello world</button>
+  
+  <div class="btn-group">
+    <a href="#" class="btn btn-lg btn-primary">HEY</a>
+    <a href="#" class="btn btn-lg btn-secondary">YOU</a>
+    <a href="#" class="btn btn-lg btn-success">YOU</a>
+    <a href="#" class="btn btn-lg btn-danger">YOU</a>
+    <a href="#" class="btn btn-lg btn-outline-secondary">YOU</a>
+  </div>
+
+    <div class="bg-primary my-5 px-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</div>
+    <div class="bg-success m-4 ps-4">Lorem, ipsum.</div>
+    <div class="m-3 ps-5 border text-center">border Lorem ipsum dolor sit amet.</div>
+    <div class="m-3 ps-4 border border-secondary bg-success">border Lorem ipsum dolor sit.</div>
+    <div class="m-5 ps-3 border-start border-success ">border Lorem ipsum dolor sit amet consectetur.</div>
+    <div class="ms-5 ps-4 rounded-pill border border-danger border-2">border</div>
+
+    <div class="m-3 ps-3 shadow border border-danger border-1">box shadow Lorem, ipsum.</div>
+    <div class="fst-italic fw-bold ms-4 ps-3 bg-success border border-3 border-secondary rounded-pill">Lorem ipsum dolor sit.</div>
+    <div class="fw-light fst-italic bg-primary p-4 mt-5 ms-5">font light Lorem, ipsum.</div>
+
+    <div class="container my-5">
+      <h1>hello world</h1>
+      <p>hello world Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim eius cumque error!</p>
+    </div>
+  
+    <div class="container-fluid">
+      <h1>fluid container</h1>
+      <p>Lorem ipsum dolor sit Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio sequi veniam ad Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque eveniet a vel!?
+      </p>
+    </div>
+
+    <div class="container-lg my-5">
+      <h1>container large 100% large screen</h1>
+      <p>;Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora mollitia vel expedita.</p>
+    </div>
+
+    <div class="container-xl my-5">
+      <h2>100% width until xl screens</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, tempore. Non, ullam.</p>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>basic grid</h2>
+        <div class="row">
+          <div class="col">
+              <div class="p-5 bg-primary text-light">col 1</div>
+          </div>
+          <div class="col">
+            <div class="p-5 bg-primary text-light">col 2</div>
+        </div>
+        <div class="col">
+          <div class="p-5 bg-primary text-light">col 3</div>
+      </div>
+      <div class="col">
+        <div class="p-5 bg-primary text-light">col 4</div>
+    </div>
+        </div>
+    </div>
+
+      <div class="container-lg my-5">
+        <h2>column width</h2>
+          <div class="row">
+            <div class="col-6">
+              <div class="p-5 bg-secondary text-light">col 1</div>
+            </div>
+            <div class="col-3">
+              <div class="p-5 bg-danger text-light">col 2</div>
+            </div>
+            <div class="col-2 ">
+              <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container-lg my-5">
+        <h2>responsive column width</h2>
+          <div class="row">
+            <div class="col-sm-4 col-lg-6">
+              <div class="p-5 bg-secondary text-light">col 1</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="p-5 bg-danger text-light">col 2</div>
+            </div>
+            <div class="col-sm-4 col-lg-3">
+              <div class="p-5 bg-primary text-light">col 3</div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container-lg my-5">
+          <h2>justifying columns</h2>
+          <div class="row justify-content-center">
+            <div class="col-md-3">
+              <div class="p-5 bg-success text-light">col 1</div>
+            </div>
+            <div class="col-md-3">
+              <div class="p-5 bg-success text-light">col 2</div>
+            </div>
+            <div class="col-md-3">
+              <div class="p-5 bg-success text-light">col 3</div>
+            </div>
+          </div>
+      </div>
+    -->
+<!-- navbar -->
+<nav class="navbar navbar-expand-md bg-secondary">
+  <div class="container-xxl">
+    <a href="#intro" class="navbar-brand">
+      <span class="fw-bold text-light">
+        Talambuhay ni Rednose
+      </span>
+    </a>
+
+    <!-- toggle button for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+    data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+    aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span></button>
+
+  <!-- nav links -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#link">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+  </div>
+</nav>
+
+
+      <section id="intro">
+          <div class="container-lg">
+              <div class="row justify-content-center align-items-center">
+                <div class="co-md-5 text-center text-md-start">
+                  <h1>
+                    <div class="display-2">test 1</div>
+                    <div class="display-5 text-muted">Lorem, ipsum dolor.</div>
+                  </h1>
+                  <p class="lead my-4 text-muted">Lorem ipsum dolor sit amet.</p>
+                  <a href="#pricing" class="btn btn-secondary btn-lg">buy my boot</a>
+                </div>
+                <div class="col-md-5 text-center d-none d-md-block">
+                    <img class="img-fluid" src="/assets/88.png" alt="logo" width="500" height="300">
+                </div>
+              </div>
+          </div>
+      </section>
+
+      <!-- pricing plans -->
+      <section id="link" class="bg-light mt-5">
+        <div class="container-lg">
+            <h2>Pricing Plans</h2>
+            <p class="lead text-muted">Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci eos alias asperiores qui accusantium omnis est.</p>
+        </div>
+
+        <div class="row my-5 align-items-center justify-content-center">
+          <div class="col-8 col-lg-4 col-xl-3">
+            <div class="card border-0">
+              <div class="card-body text-center py-4">
+                <h4 class="card-title">Lorem ipsum dolor sit amet.</h4>
+                <p class="leaad card-subtitle">Lorem, ipsum dolor.</p>
+                <p class="display-5 my-4 text-primary fw-bold">hello</p>
+                <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum dolor sit amet.</p>
+                <a href="#" class="btn btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
